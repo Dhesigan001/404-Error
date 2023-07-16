@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Space Mono;
+}
+
+img{
+    height: 50vh;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.class-1{
+    font-family: Space Mono;
+    margin-left: 80px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    margin-top: 20px;
+}
+button{
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+    margin-top: 50px;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+    color: #a9a4a4;
+    margin-top: 200px;
+}
+
+/* for mobile devices */
+
+@media only screen and (max-width: 600px) and (min-width: 350px)  
+{
+    .container {
+        min-width: 50%;
+        max-width: 100%;
+    }
+    .container-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .class-1{
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    h2{
+        font-size: 25px !important  ;
+    }
+
+}
